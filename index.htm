@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/slider principal.css" rel="stylesheet">
+    <script src="js/script.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en San Francisco</title>
+
+</head>
+
+<body>
+    <h1 id="titulo">Turismo en San Francisco</h1>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <a href="#">Alojamientos</a>
+                <ul class="dropdown-menu">
+                    <li><a href="Alojamientos/Hoteles.htm">Hoteles</a></li>
+                </ul>
+            </li>
+            
+            <li class="dropdown">
+                <a href="#">Sitios para visitar</a>
+                <ul class="dropdown-menu">
+                    <li><a href="Sitios para visitar/Urbanos.html">Zona Urbana</a></li>
+                    <li><a href="Sitios para visitar/Rurales.html">Rurales</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Lugares para comer</a>
+                <ul class="dropdown-menu">
+                    <li><a href="Lugares para comer/Restaurantes.html">Restaurantes</a></li>
+                    <li><a href="Lugares para comer/Bares.html">Bares</a></li>
+                    <li><a href="Lugares para comer/Parrillas.html">Parrillas</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#">Historia</a>
+                <ul class="dropdown-menu">
+                    <li><a href="Historia/Historia.html">Información</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Formulario de consultas</a>
+                <ul class="dropdown-menu">
+                    <li><a href="http://127.0.0.1:1500/">Formulario</a></li>
+                </ul>
+            </li>
+    </nav>
+    <div class="table-container">
+        <table>
+            <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Ana</td>
+                <td>Francone</td>
+            </tr>
+            <tr>
+                <td>Fatima</td>
+                <td>Pairola</td>
+            </tr>
+            <tr>
+                <td>Macarena</td>
+                <td>Amantini</td>
+            </tr>
+            <tr>
+                <td>Felicitas</td>
+                <td>Lodi</td>
+            </tr>
+            <tr>
+                <td>Lautaro</td>
+                <td>Garetto</td>
+            </tr>
+            <tr>
+                <td>Emilio</td>
+                <td>Lerda</td>
+            </tr>
+            </body>
+        </table>
+    </div>    
+
+    <img src="../PROYECTO FULL STACK/img/sanfran.jpg" style="margin-top: 100px ;">
+    
+    <div class="video-container">
+        <video controls>
+        <source src="img/HAPPY 24 hs SAN FRANCISCO - INSPIRED BY PHARRELL WILLIAMS (480p).mp4" type="video/mp4">
+         </video>
+    </div>
+    
+     <div>
+        <button id="boton" onclick="cambiarTitulo()">Cambiar título</button>
+    </div>
+</body>
+</html>
+
