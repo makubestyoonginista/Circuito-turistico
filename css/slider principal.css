@@ -1,0 +1,186 @@
+html{
+  align-items: center;
+}
+
+h1{
+  font-size: 40px;
+  font-family: 'Cambria' ;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+}   
+
+h3{
+  padding-top: 70px;
+  padding-bottom: 5px;
+  font-family:  'Cambria';
+}
+
+p, li, h4, a  {
+  font-family: 'Cambria' ;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+body {
+  font-size: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #333333;   
+}
+
+/* Tabla */
+
+.table-container {
+  display: flex; 
+  justify-content: center;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Cambria' ;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+th {
+  background-color: #f2f2f2;
+  
+}
+
+/* Barra de navegación */
+
+nav ul {
+  list-style: none;
+  display: flex; 
+  justify-content: center;
+  padding: 15px;
+}
+
+nav ul li {
+  position: relative; 
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav ul li ul.dropdown-menu {
+  font-family: 'Cambria';
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  padding-left: 50px;
+  top: 100%;
+  left: 0; 
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+nav ul li:hover > ul.dropdown-menu {
+  display: block;
+}
+
+nav ul li ul.dropdown-menu li {
+  width: 100%;
+ 
+}
+
+nav ul li ul.dropdown-menu li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+ 
+}
+
+nav ul li ul.dropdown-menu li a:hover {
+  background-color: #ddd;
+
+}
+
+.dropdown{
+  justify-content: center;
+}
+
+
+/* Imagen */
+
+img{ 
+text-align: center;
+margin-top: 0%;
+}
+
+
+/* Formulario*/
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Cambria';
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #375086;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="submit"]:hover {
+  background-color: #1363a4;
+  text-align: center;
+}
+
+
+/* Video */
+.video-container {
+  text-align: center;
+ 
+}
+
+video {
+  display: inline-block;
+  width: 640px;
+}
+
+/* Java boton */
+#boton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(102, 102, 231);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Cambria';
+}
